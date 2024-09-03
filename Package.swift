@@ -9,6 +9,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
     ],
+    path: "docs"
     targets: [
         .executableTarget(
             name: "IgniteStarter",

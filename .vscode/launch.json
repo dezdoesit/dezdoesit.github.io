@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:dezdoesit.github.io}/PortfolioSite",
+            "name": "Debug IgniteStarter (PortfolioSite)",
+            "program": "${workspaceFolder:dezdoesit.github.io}/PortfolioSite/.build/debug/IgniteStarter",
+            "preLaunchTask": "swift: Build Debug IgniteStarter (PortfolioSite)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:dezdoesit.github.io}/PortfolioSite",
+            "name": "Release IgniteStarter (PortfolioSite)",
+            "program": "${workspaceFolder:dezdoesit.github.io}/PortfolioSite/.build/release/IgniteStarter",
+            "preLaunchTask": "swift: Build Release IgniteStarter (PortfolioSite)"
+        }
+    ]
+}
