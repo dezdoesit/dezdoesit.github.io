@@ -7,9 +7,10 @@ struct MyTheme: Theme {
             Head(for: page, in: context)
 
             Body {
-                NavigationBar(logo: "Brush & Bark"){
+                let brandImage = Image("/images/log.svg", description: "EZDEZIT")
+
+                NavigationBar(logo: brandImage){
                     Link("About", target: About())
-                    Link("Home", target: Home())
                     Link("Projects", target: Projects())
                     Link("Publications", target: Publicaitons())
 
@@ -19,6 +20,8 @@ struct MyTheme: Theme {
 
 
                 page.body
+
+                IgniteFooter()
 
             }
         }
