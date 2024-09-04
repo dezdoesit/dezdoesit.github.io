@@ -12,7 +12,7 @@ struct MyTheme: Theme {
                 NavigationBar(logo: brandImage){
                     Link("About", target: About())
                     Link("Projects", target: Projects())
-                    Link("Publications", target: Publicaitons())
+                    Link("Publications", target: Publications())
 
                 }
                     .backgroundColor("#2c3e50")
@@ -20,8 +20,6 @@ struct MyTheme: Theme {
 
 
                 page.body
-
-                IgniteFooter()
 
             }
         }

@@ -28,7 +28,7 @@ struct ExampleSite: Site {
     var pages: [any StaticPage] {
         About()
         Projects()
-        Publicaitons()
+        Publications()
     }
 }
 
