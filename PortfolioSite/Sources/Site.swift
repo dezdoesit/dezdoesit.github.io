@@ -24,6 +24,12 @@ struct ExampleSite: Site {
 
     var homePage = Home()
     var theme = MyTheme()
+
+    var pages: [any StaticPage] {
+        About()
+        Projects()
+        Publicaitons()
+    }
 }
 
 
